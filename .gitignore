@@ -1,0 +1,17 @@
+# Environments & Secrets
+.env
+ecom_customer_venv/
+
+# Python & Build cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data & logs
+data/processed/
+data/raw/*.csv
+logs/
+*.log
+
+# Docker Volumes
+pgdata/

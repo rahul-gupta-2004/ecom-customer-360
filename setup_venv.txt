@@ -1,0 +1,7 @@
+python3 -m venv ecom_customer_venv
+
+source ecom_customer_venv/bin/activate
+
+pip install ...
+
+deactivate
